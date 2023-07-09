@@ -1,0 +1,44 @@
+/* style reset */
+@import url(./style_reset.css);
+/* style reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', sans-serif; */
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgb(206, 207, 209);
+    overflow: hidden;
+}
+
+
+
+.wrapper__box{
+    display: grid;
+    grid-template-columns: 70px auto;
+    margin: 300px auto;
+    max-width: 200px;
+
+    border: solid 2px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    background-color: white;
+
+    font-size: 24px;
+}
+
+.currencies{
+    border-right: solid 1px;
+}
+
+.grid{
+    border-bottom: solid 1px;
+
+    padding: 5px;
+    text-align: center;
+}
+
+.green{
+    background-color: rgb(37, 236, 37);
+}
+
